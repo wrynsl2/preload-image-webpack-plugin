@@ -19,6 +19,6 @@ var webpackConfig = {
 
 - `test`: function | regex， 需要preload的图片, 默认值：/\?.{0,}preload/
 - `chunks`: array, 缓存哪个webpack chunk图片, 默认值：undefined，所有chunk
-- `agentPreload`: 是否使用link标签预加载, 默认值：false
-- `agentPreload`: 是否注入脚本到html,使用img标签预加载, 默认值：true
-- `ref`: link标签的预加载方式, 默认值：preload
+- `agentPreload`: boolean, 是否使用link标签预加载, 默认值：false
+- `userPreoload`: boolean, 是否注入脚本到html,使用img标签预加载, 默认值：true
+- `ref`: string, link标签的预加载方式, 默认值：preload
