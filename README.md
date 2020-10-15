@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-``` shell
+``` javascript
 var PreloadImageWebpackPlugin = require('preload-image-webpack-plugin');
 var webpackConfig = {
   entry: 'index.js',
